@@ -23,7 +23,7 @@
 	public boolean isPalindrome(int x) {
         int rev=0;
         int num = x;
-        
+        //reverse x and compare
         while (num>0) {
         	int m=num%10;
         	rev= rev*10+m;
